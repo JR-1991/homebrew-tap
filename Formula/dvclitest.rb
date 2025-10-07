@@ -1,5 +1,5 @@
 class Dvclitest < Formula
-  desc "A Rust library for interacting with the Dataverse API."
+  desc "Rust library for interacting with the Dataverse API"
   homepage "https://github.com/gdcc/rust-dataverse"
   version "0.0.2"
   if OS.mac?
