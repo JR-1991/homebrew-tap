@@ -4,21 +4,21 @@ class Dvclitest < Formula
   version "0.0.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/gdcc/rust-dataverse/releases/download/v0.0.2/rust-dataverse-aarch64-apple-darwin.tar.xz"
+      url "https://github.com/JR-1991/rust-dataverse/releases/download/v0.0.2/rust-dataverse-aarch64-apple-darwin.tar.xz"
       sha256 "877215b5bbbb7b658046a66b368026de30da32aba453955ab19ec11b49789150"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/gdcc/rust-dataverse/releases/download/v0.0.2/rust-dataverse-x86_64-apple-darwin.tar.xz"
+      url "https://github.com/JR-1991/rust-dataverse/releases/download/v0.0.2/rust-dataverse-x86_64-apple-darwin.tar.xz"
       sha256 "c6dba695c32b07229f576f92cb7ea61dfb45e00443719a049ee47dd1fa453af1"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/gdcc/rust-dataverse/releases/download/v0.0.2/rust-dataverse-aarch64-unknown-linux-gnu.tar.xz"
+      url "https://github.com/JR-1991/rust-dataverse/releases/download/v0.0.2/rust-dataverse-aarch64-unknown-linux-gnu.tar.xz"
       sha256 "22ee16b7de2d9e7e34f8e8eee47cc0cd48f8802baa5e8bcaf0e42f6a217d7769"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/gdcc/rust-dataverse/releases/download/v0.0.2/rust-dataverse-x86_64-unknown-linux-gnu.tar.xz"
+      url "https://github.com/JR-1991/rust-dataverse/releases/download/v0.0.2/rust-dataverse-x86_64-unknown-linux-gnu.tar.xz"
       sha256 "d2c6acbab5275fae4046e4e8b1d009293dcae32bf7fdc2d846381014052b7e8a"
     end
   end
