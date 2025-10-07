@@ -1,6 +1,6 @@
 class Dvclitest < Formula
   desc "Rust library for interacting with the Dataverse API"
-  homepage "https://github.com/gdcc/rust-dataverse"
+  homepage "https://github.com/JR-1991/rust-dataverse"
   version "0.0.2"
   if OS.mac?
     if Hardware::CPU.arm?
