@@ -1,25 +1,25 @@
 class Dvclitest < Formula
   desc "A Rust library for interacting with the Dataverse API."
   homepage "https://github.com/gdcc/rust-dataverse"
-  version "0.0.1"
+  version "0.0.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/gdcc/rust-dataverse/releases/download/v0.0.1/rust-dataverse-aarch64-apple-darwin.tar.xz"
-      sha256 "7cd5e6e461d019ed44a6be16b531495d905df06a48dcb571c935f23240280ff5"
+      url "https://github.com/gdcc/rust-dataverse/releases/download/v0.0.2/rust-dataverse-aarch64-apple-darwin.tar.xz"
+      sha256 "877215b5bbbb7b658046a66b368026de30da32aba453955ab19ec11b49789150"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/gdcc/rust-dataverse/releases/download/v0.0.1/rust-dataverse-x86_64-apple-darwin.tar.xz"
-      sha256 "b300ee92c5d056ba2c60589db4518e262b09239ee30bea49e93d2eddbf92f50b"
+      url "https://github.com/gdcc/rust-dataverse/releases/download/v0.0.2/rust-dataverse-x86_64-apple-darwin.tar.xz"
+      sha256 "c6dba695c32b07229f576f92cb7ea61dfb45e00443719a049ee47dd1fa453af1"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/gdcc/rust-dataverse/releases/download/v0.0.1/rust-dataverse-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "be3cfbd221428c4027c594138c5167a9cae8482cd4de1a2ebca36430f5ed4711"
+      url "https://github.com/gdcc/rust-dataverse/releases/download/v0.0.2/rust-dataverse-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "22ee16b7de2d9e7e34f8e8eee47cc0cd48f8802baa5e8bcaf0e42f6a217d7769"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/gdcc/rust-dataverse/releases/download/v0.0.1/rust-dataverse-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "53eff7507eaad9b1033983ca662c80abee1cfd9f8bf6a7e11a4c638b1e2bcc6d"
+      url "https://github.com/gdcc/rust-dataverse/releases/download/v0.0.2/rust-dataverse-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "d2c6acbab5275fae4046e4e8b1d009293dcae32bf7fdc2d846381014052b7e8a"
     end
   end
   license "MIT"
